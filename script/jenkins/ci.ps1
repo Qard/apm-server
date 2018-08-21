@@ -1,3 +1,6 @@
+# Abort with non zero exit code on errors
+$ErrorActionPreference = "Stop"
+
 function Exec
 {
     param(
